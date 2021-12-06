@@ -1,0 +1,39 @@
+
+/*fonts*/
+@font-face {
+  font-family: 'robotoregular';
+  src: url('/fonts/Roboto-Regular.ttf') format('ttf'),
+       url('/fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container{
+     max-width: 1001px !important;
+     margin: 0 auto;
+     padding: 0px 15px;
+     @media only screen and (max-width: 1024px){
+          width: 95%;
+     }
+     @media only screen and (max-width: 768px){
+          padding: 0px;
+     }
+} 
+body,html{
+     padding: 0;
+     margin: 0;
+     color: #636363;
+     font-family: 'robotoregular';
+}
+ul{
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+a{
+     text-decoration: none;
+     &:hover{
+          text-decoration: none;
+     }
+}
+     

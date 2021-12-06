@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Metro</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css"> -->
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="/../js/jquery.js"></script>
+  <script src="/../js/slick.js"></script>
+  <script src="/../js/main.js"></script>
+</head>
+
+<body>
+  <div class="main-wrapper" id="home">
+    <header id="custom-header">
+      <div class="sticker">
+        <p>Fl at <span>5% OFF</span> on all Prepaid Orders</p>
+      </div>
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="top-header">
+            <div class="logo">
+              <a href="https://www.metroshoes.net/"><img src="images/logo.png" alt="Metro Shoes"></a>
+            </div>
+            <div class="header-right">
+              <ul class="check-links">
+                <li>
+                  <a title="Store Locator" href="http://stores.metroshoes.net/" target="_blank">Store Locator</a>
+                </li>
+                <li>free shipping*</li>
+                <li>cash on delivery*</li>
+                <li>30 days return on fresh products*</li>
+                <li>
+                  <a title="customer support" href="https://www.metroshoes.net/contact/" target="_blank">customer
+                    support</a>
+                </li>
+              </ul>
+              <div class="search-login">
+                <div class="right-wrapper">
+                  <ul id="loginnew">
+                    <li><a class="top-link-last" title="Login" id="alogin" href="javascript:void(0)">Login</a></li>
+                    <li><a class="top-link-last" title="Register" id="aregister" href="javascript:void(0)">Register</a>
+                    </li>
+                  </ul>
+                  <ul id="caret-wishlist">
+                    <li class="store-locator">
+                      <a title="Store Locator" href="http://stores.metroshoes.net/" target="_blank">Store Locator</a>
+                    </li>
+                    <li class="header-wishlist">
+                      <div id="wishlist1">
+                        <a href="javascript:void(0)" rel="https://www.metroshoes.net/wishlist/" title="Wishlist"
+                          class="alogin1"></a>
+                      </div>
+                    </li>
+                    <li class="supercart">
+                      <a href="#header-cart" title="Minicart" class="skip-link skip-cart  no-count">
+                        <span class="label"></span>
+                        <span class="count" style="display: inline;">0</span>
+                      </a>
+                    </li>
+                    <li class="new-supercart">
+                      <a class="top-link-last" title="Login" href="javascript:void(0)" id="alogin"></a>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <form id="search_mini_form">
+                  <div class="input-box">
+                    <label for="search">Search:</label>
+                    <input id="search" type="search" name="q" value="" class="input-text required-entry" maxlength="128"
+                      placeholder="Search here..." autocomplete="off">
+                    <button type="submit" title="Search"
+                      class="button search-button"><span><span>Search</span></span></button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          <div class="sticky-header">
+            <div class="sticky-logo">
+              <div class="logo">
+                <a href="https://www.metroshoes.net/" title="metro" class="logo"></a>
+              </div>
+            </div>
+            <nav>
+              <div class="filter-wrapper">
+                <ul>
+                  <li><a href="https://www.metroshoes.net/men-shoes.html" target="_blank">Men</a>
+                    <span class="accordian-lg"></span>
+                    <div class="submenu-wrapper submenu-slide">
+                      <h3>Shop By</h3>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Occasion</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/men-shoes/occasion/formals.html" target="_blank">Formal Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/occasion/casuals.html" target="_blank">Casual Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/occasion/ethnic.html" target="_blank">Ethnic Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/occasion/sports.html" target="_blank">Sports Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/occasion/party.html" target="_blank">Party Shoes</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Shoe Types</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/mocassin.html" target="_blank">Mocassin</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/loafers.html" target="_blank">Loafers</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/sandals.html" target="_blank">Sandals & Floaters</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/slippers.html" target="_blank">Slipers & Flip Flop</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/sneakers.html" target="_blank">Sneakers</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/running-shoes.html" target="_blank">Running Shoes</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/lifestyle.html" target="_blank">Lifestyle Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/boots.html" target="_blank">Boots</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/kolhapuris.html" target="_blank">Kolhapuri Chappals</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/mojaris.html" target="_blank">Mojaris</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/comfort.html" target="_blank">Comforts Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/oxford.html" target="_blank">Oxford Shoes</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/derby.html" target="_blank">Derby Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/brogue.html" target="_blank">Brogue Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/shoe-type/slip-on.html" target="_blank">Slip On</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Brands</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/metro.html" target="_blank">Metro</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/davinchi.html" target="_blank">Davinchi</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/genx.html" target="_blank">Gen X</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/biofoot.html" target="_blank">Biofoot</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/crocs.html" target="_blank">Crocs</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/mardi-gras.html" target="_blank">Mardi Gras</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/ruosh.html" target="_blank">Ruosh</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/von-wellx.html" target="_blank">Von Wellx</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/hotmarzz.html" target="_blank">Hotmarzz</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/buckaroo.html" target="_blank">Bukaroo</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/lee-cooper.html" target="_blank">Lee Cooper</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/red-tape.html" target="_blank">Red Tape</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/moreschi.html" target="_blank">Moreschi</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/peak.html" target="_blank">Peak</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/egoss.html" target="_blank">Eggos</a></li>
+                            <li><a href="https://www.metroshoes.net/men-shoes/brands/id.html" target="_blank">ID</a></li>
+                            <li><a href="https://www.metroshoes.net/catalog/category/view/s/fitflop/id/419/" target="_blank">FitFlops</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="https://www.metroshoes.net/women-shoes.html" target="_blank">Women</a> <span class="accordian-lg"></span>
+                    <div class="submenu-wrapper submenu-slide">
+                      <h3>Shop By</h3>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Occasion</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/women-shoes/occasion/formals.html" target="_blank">Formal Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/occasion/casuals.html" target="_blank">Casual Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/occasion/ethnic.html" target="_blank">Ethnic Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/occasion/sports.html" target="_blank">Sports Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/occasion/party.html" target="_blank">Party Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/occasion/wedding.html" target="_blank">Wedding Shoes</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Shoe Types</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/sandals.html" target="_blank">Sandals</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/ballerinas.html" target="_blank">Ballerines</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/pumps.html" target="_blank">Pumps</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/loafers.html" target="_blank">Loafers</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/sneakers.html" target="_blank">Sneakers</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/peep-toes.html" target="_blank">Peep Toes</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/gladiators.html" target="_blank">Gladiators</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/boots.html" target="_blank">Boots</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/slip-ons.html" target="_blank">Slip Ons</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/slippers.html" target="_blank">Slippers</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/comfort.html" target="_blank">Comforts Shoes</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/mojaris.html" target="_blank">Mojaris</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/kolhapuris.html" target="_blank">Kolhapuri chapppal</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/lifestyle.html" target="_blank">Lifestyle Shoes</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Brands</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/women-shoes/brands/metro.html" target="_blank">Metro</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/brands/davinchi.html" target="_blank">Davinchi</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/brands/princess.html" target="_blank">Princess</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/brands/fitflop.html" target="_blank">FitFlop</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/brands/crocs.html" target="_blank">Crocs</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/brands/von-wellx.html" target="_blank">Von Wellx</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/women-shoes/brands/hotmarzz.html" target="_blank">Hotmarz</a></li>
+                            <li><a href="https://www.metroshoes.net/women-shoes/brands/cheemo.html" target="_blank">Cheemo</a></li>
+                            <li><a href="https://www.metroshoes.net/catalog/category/view/s/clarks/id/417/" target="_blank">Clarks</a></li>
+                            <li><a href="https://www.metroshoes.net/catalog/category/view/s/skechers/id/418/" target="_blank">Skechers</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="kids"><a href="https://www.metroshoes.net/kids-shoes.html" target="_blank">Kids</a> <span class="accordian-lg"></span>
+                    <div class="submenu-wrapper submenu-slide">
+                      <h3>Shop By</h3>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Occasion - Boys</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/occasion-1/formals.html" target="_blank">Formal Shoes for boys</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/occasion-1/casuals.html" target="_blank">Casual Shoes for boys</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/occasion-1/school-shoes.html" target="_blank">School Shoes for boys</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Shoe Types - Boys</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/shoe-type/sandals.html" target="_blank">Boy's Sandals</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/shoe-type/sneakers.html" target="_blank">Boys sneakers</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Occasion - Girls</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/occasion/formals.html" target="_blank">Formal Shoes for Girls</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/occasion/casuals.html" target="_blank">Casual Shoes for Girls</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/occasion/school-shoes.html" target="_blank">School Shoes for Girls</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Shoe types - Girls</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/shoe-type-1/sandals.html" target="_blank">Girl's Sandals</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/shoe-type-1/slippers.html" target="_blank">Girl's Slipers</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/shoe-type-1/boots.html" target="_blank">Girl's Boots</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Brands</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/brands/metro.html" target="_blank">Metro</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/brands/crocs.html" target="_blank">Skechers</a></li>
+                            <li><a href="https://www.metroshoes.net/kids-shoes/brands/skechers.html" target="_blank">Crocs</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="https://www.metroshoes.net/shoe-care-accessories.html" target="_blank">Shoe Care Accessories</a>
+                    <span class="accordian-lg"></span>
+                    <div class="submenu-wrapper submenu-slide">
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Shop By</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/shoe-care-accessories/shop-by/pro-clean.html" target="_blank">Pro clean</a></li>
+                            <li><a href="https://www.metroshoes.net/shoe-care-accessories/shop-by/pro-care.html" target="_blank">Pro care</a></li>
+                            <li><a href="https://www.metroshoes.net/shoe-care-accessories/shop-by/pro-color.html" target="_blank">Pro color</a></li>
+                            <li><a href="https://www.metroshoes.net/shoe-care-accessories/shop-by/pro-renew.html" target="_blank">Pro renew</a></li>
+                            <li><a href="https://www.metroshoes.net/shoe-care-accessories/shop-by/pro-shine.html" target="_blank">Pro shine</a></li>
+                            <li><a href="https://www.metroshoes.net/shoe-care-accessories/shop-by/pro-protect.html" target="_blank">Pro protect</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/shoe-care-accessories/shop-by/pro-fresh.html" target="_blank">Pro fresh</a></li>
+                            <li><a href="https://www.metroshoes.net/shoe-care-accessories/shop-by/pro-accessories.html" target="_blank">Pro accessories</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="https://www.metroshoes.net/accessories.html" target="_blank">Accessories</a>
+                    <span class="accordian-lg"></span>
+                    <div class="submenu-wrapper submenu-slide">
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Shop By</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/accessories/shop-by/mens-belts.html" target="_blank">Men's Belt</a></li>
+                            <li><a href="https://www.metroshoes.net/accessories/shop-by/mens-wallets.html" target="_blank">Men's Wallet</a></li>
+                            <li><a href="https://www.metroshoes.net/accessories/shop-by/womens-belts.html" target="_blank">Women's Belt</a></li>
+                            <li><a href="https://www.metroshoes.net/accessories/shop-by/socks.html" target="_blank">Shocks</a></li>
+                            <li><a href="https://www.metroshoes.net/accessories/shop-by/handkerchief.html" target="_blank">Handkerchief</a></li>
+                            <li><a href="https://www.metroshoes.net/accessories/shop-by/shoe-care.html" target="_blank">Shoe care</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/accessories/shop-by/foot-care.html" target="_blank">Foot care</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="https://www.metroshoes.net/bags.html" target="_blank">Bags</a>
+                    <span class="accordian-lg"></span>
+                    <div class="submenu-wrapper submenu-slide">
+                      <h3>Shop By</h3>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Occasion</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/matching-bags.html" target="_blank">Matching bags</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/mobile-covers.html" target="_blank">Mobile covers</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/sling-bags.html" target="_blank">Sling bags</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/totes.html" target="_blank">Toes</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/backpacks.html" target="_blank">Backpacks</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/hobo-bags.html" target="_blank">Hobo bags</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/wristlet-bags.html" target="_blank">Wrestlit bags</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/evening-bags.html" target="_blank">Evening bags</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/satchel-bags.html" target="_blank">Satchel bags</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/potlis.html" target="_blank">Potlis</a></li>
+                            <li><a href="https://www.metroshoes.net/bags/occasion/frame-bags.html" target="_blank">Frame Bags</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li><a href="https://www.metroshoes.net/brands.html" target="_blank">Brands</a>
+                    <span class="accordian-lg"></span>
+                    <div class="submenu-wrapper submenu-slide">
+                      <h3>Shop By</h3>
+                      <div class="sub-menu-container">
+                        <h4 class="accordian-lg">Occasion</h4>
+                        <div class="submenu-wrapper">
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/metro.html" target="_blank">Metro</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/buckaroo.html" target="_blank">Bukaroo</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/clarks.html" target="_blank">Clarks</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/genx.html" target="_blank">Gen X</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/lee-cooper.html" target="_blank">Lee Cooper</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/language.html" target="_blank">Language</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/princess.html" target="_blank">Princess</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/red-tape-signature.html" target="_blank">Red Taps</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/zeolite.html" target="_blank">Zeolite</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/crocs.html" target="_blank">Crocs</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/fitflop.html" target="_blank">FitFlop</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/pro.html" target="_blank">Pro</a></li>
+                          </ul>
+                          <ul>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/biofoot.html" target="_blank">Biofoots</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/mardi-gras.html" target="_blank">Mardi grass</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/ruosh.html" target="_blank">Ruosh</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/von-wellx.html" target="_blank">Von Wellx</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/hotmarzz.html" target="_blank">Hotmarz</a></li>
+                            <li><a href="https://www.metroshoes.net/brands/occasion/cheemo.html" target="_blank">Cheemo</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="schools-shoes"><a href="JavaScript:Void(0)" >School shoes</a></li>
+                  <li class="women"><a href="JavaScript:Void(0)" >Working women</a></li>
+                  <li class="sale"><a href="JavaScript:Void(0)" >Sale</a></li>
+                </ul>
+              </div>
+            </nav>
+            <div class="sticky-whislist">
+              <ul id="caret-wishlist">
+                <li class="header-wishlist">
+                  <div id="wishlist1">
+                    <a href="javascript:void(0)" rel="https://www.metroshoes.net/wishlist/" title="Wishlist"
+                      class="alogin1"></a>
+                  </div>
+                </li>
+                <li class="supercart">
+                  <a href="#header-cart" title="Minicart" class="skip-link skip-cart  no-count">
+                    <span class="label"></span>
+                    <span class="count" style="display: inline;">0</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section style="min-height: 500px;"></section>
+
+
+    <footer class="container" id="custom-footer">
+      <div class="social-links">
+        <span class="social-label">Connect With Metro: </span>
+        <ul>
+          <li><a rel="nofollow" href="https://www.facebook.com/Metroshoes" class="facebook"></a></li>
+          <li><a rel="nofollow" href="https://twitter.com/metroshoes" class="twitter"></a></li>
+          <li><a rel="nofollow" href="https://instagram.com/metroshoesindia" class="plus"></a></li>
+          <li><a rel="nofollow" href="https://in.pinterest.com/metroshoesind" class="feed"></a></li>
+          <li><a rel="nofollow" href="https://www.youtube.com/user/MetroShoesStore" class="youtube"></a></li>
+        </ul>
+      </div>
+      <div class="brand-wrapper">
+        <div class="brand-title">
+          <span class="title-border"></span>
+          <span>Popular Brands</span>
+        </div>
+        <section class="footer-slider slider">
+          <div>
+            <img src="images/Fit_Flop.jpg" alt="Fit Flop Womens Sandals">
+          </div>
+          <div>
+            <img src="images/clarks.png" alt="Clarks Shoes">
+          </div>
+          <div>
+            <img src="images/da_vinchi.jpg" alt="Davinchi Shoes">
+          </div>
+          <div>
+            <img src="images/Biofoot.jpg" alt="Biofit Mens Sandals &amp; Slippers">
+          </div>
+          <div>
+            <img src="images/147400723783248.jpg" alt="Metro Shoes">
+          </div>
+          <div>
+            <img src="images/Language17.jpg" alt="Language Shoes">
+          </div>
+        </section>
+      </div>
+      <div class="footer-navigation">
+        <div class="accordian-sm">
+          <p><a href="https://www.metroshoes.net/men-shoes.html" target="_blank">Mens shoes</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/men-shoes/occasion/formals.html" target="_blank">Formal shoes for men</a></li>
+              <li><a href="https://www.metroshoes.net/men-shoes/occasion/casuals.html" target="_blank">Casual shoes for men</a></li>
+              <li><a href="https://www.metroshoes.net/men-shoes/occasion/ethnic.html" target="_blank">Mens ethnic footwear</a></li>
+              <li><a href="https://www.metroshoes.net/men-shoes/occasion/sports.html" target="_blank">Sport shoes for men</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p><a href="https://www.metroshoes.net/women-shoes.html" target="_blank">Womens shoes</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/women-shoes/occasion/formals.html" target="_blank">Formal shoes for men</a></li>
+              <li><a href="https://www.metroshoes.net/women-shoes/occasion/casuals.html" target="_blank">Casual shoes for men</a></li>
+              <li><a href="https://www.metroshoes.net/women-shoes/occasion/ethnic.html" target="_blank">Mens ethnic footwear</a></li>
+              <li><a href="https://www.metroshoes.net/women-shoes/occasion/sports.html" target="_blank">Sport shoes for men</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p><a href="https://www.metroshoes.net/kids-shoes.html/" target="_blank">Kids shoes</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/kids-shoes/occasion-1/formals.html/" target="_blank">Formal shoes for Boys</a></li>
+              <li><a href="https://www.metroshoes.net/kids-shoes/occasion-1/casuals.html/" target="_blank">Casual shoes for Boys</a></li>
+              <li><a href="https://www.metroshoes.net/kids-shoes/occasion/casuals.html/" target="_blank">Casual shoes for Girls</a></li>
+              <li><a href="https://www.metroshoes.net/kids-shoes/occasion/formals.html/" target="_blank">Formal shoes for Girls</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p><a href="JavaScript:Void(0)" >Premium brands</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/da-vinchi" target="_blank">Devanchi</a></li>
+              <li><a href="https://www.metroshoes.net/princess" target="_blank">Princess</a></li>
+              <li><a href="https://www.metroshoes.net/signature" target="_blank">Signature</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p><a href="https://www.metroshoes.net/festive-collection.html" target="_blank">Festival collection</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/men-shoes/occasion/ethnic.html" target="_blank">ETHNIC SHOES FOR MEN</a></li>
+              <li><a href="https://www.metroshoes.net/women-shoes/occasion/ethnic.html" target="_blank">ETHNIC SHOES FOR WOMEN</a></li>
+              <li><a href="https://www.metroshoes.net/women-shoes/occasion/wedding.html" target="_blank">WEDDING SHOES</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p><a href="JavaScript:Void(0)" >What is trending</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/women-shoes/occasion/wedding.html" target="_blank">WOMENS WEDDING SHOES</a></li>
+              <li><a href="https://www.metroshoes.net/women-shoes/shoe-type/sandals.html" target="_blank">WOMENS SANDALS</a></li>
+              <li><a href="https://www.metroshoes.net/men-shoes/occasion/ethnic.html" target="_blank">MENS ETHNIC SHOES</a></li>
+              <li><a href="https://www.metroshoes.net/men-shoes/occasion/formals.html" target="_blank">MENS FORMAL SHOES</a></li>
+              <li><a href="https://www.metroshoes.net/men-shoes/occasion/casuals.html" target="_blank">MENS CASUAL SHOES</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p><a href="JavaScript:Void(0)" >Others</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/sale.html" target="_blank">SHOES SALE</a></li>
+              <li><a href="https://www.metroshoes.net/brand" target="_blank">BRANDS</a></li>
+              <li><a href="https://www.metroshoes.net/accessories.html" target="_blank">ACCESSORIES</a></li>
+              <li><a href="https://www.metroshoes.net/bags.html" target="_blank">BAGS</a></li>
+              <li><a href="https://www.metroshoes.net/wedding-collection.html" target="_blank">WEDDING-COLLECTION</a></li>
+              <li><a href="https://www.metroshoes.net/sneakers.html" target="_blank">SNEAKER FESTIVAL</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p><a href="JavaScript:Void(0)" >Help</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/shoe_care_tips" target="_blank">SHOE CARE TIPS</a></li>
+              <li><a href="https://www.metroshoes.net/blog/" target="_blank">BLOG</a></li>
+              <li><a href="https://www.metroshoes.net/faq" target="_blank">FAQ'S</a></li>
+              <li><a href="https://www.metroshoes.net/storelocator" target="_blank">STORE LOCATOR</a></li>
+              <li><a href="https://www.metroshoes.net/loyalty-tc" target="_blank">LOYALTY TNC’S</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p><a href="JavaScript:Void(0)">Partner</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.mochishoes.com/" target="_blank">MOCHI SHOES</a></li>
+              <li><a href="http://walkwayshoes.com/" target="_blank">WALKWAY SHOES</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="accordian-sm">
+          <p class="last"><a href="JavaScript:Void(0)">Support</a></p>
+          <div class="accord-content">
+            <ul>
+              <li><a href="https://www.metroshoes.net/about-us" target="_blank">ABOUT METRO SHOES</a></li>
+              <li><a href="https://www.metroshoes.net/contact" target="_blank">CONTACT US</a></li>
+              <li><a href="https://www.metroshoes.net/secure-shopping" target="_blank">SECURE SHOPPING</a></li>
+              <li><a href="https://www.metroshoes.net/terms-and-conditions" target="_blank">TERMS & CONDITIONS</a></li>
+              <li><a href="https://www.metroshoes.net/career" target="_blank">CAREERS</a></li>
+              <li><a href="https://www.metroshoes.net/metro-sitemap" target="_blank">SITEMAP</a></li>
+              <li><a href="https://www.metroshoes.net/privacy_policy" target="_blank">PRIVACY POLICY</a></li>
+              <li><a href="https://www.metroshoes.net/return-and-shipping-policy" target="_blank">RETURN AND SHIPPING POLICY</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-block-middle">
+        <div class="footer-block-middle-first">
+          <p class="footer-title1"><span>Popular Mens Shoes Searches</span></p>
+          <ul>
+            <li><a title="mens formal shoes" href="https://www.metroshoes.net/men-shoes/occasion/formals.html" target="_blank">mens
+                formal
+                shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="casual shoes for men" href="https://www.metroshoes.net/men-shoes/occasion/casuals.html" target="_blank">casual
+                shoes for men</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mens sports shoes" href="https://www.metroshoes.net/men-shoes/occasion/sports.html" target="_blank">mens
+                sports
+                shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mens ethnic shoes" href="https://www.metroshoes.net/men-shoes/occasion/ethnic.html" target="_blank">mens
+                ethnic
+                shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mens loafers" href="https://www.metroshoes.net/men-shoes/shoe-type/loafers.html" target="_blank">mens
+                loafers</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mens moccasins" href="https://www.metroshoes.net/men-shoes/shoe-type/mocassin.html" target="_blank">mens
+                moccasins</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="sandals for men" href="https://www.metroshoes.net/men-shoes/shoe-type/sandals.html" target="_blank">sandals
+                for
+                men</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mens slippers" href="https://www.metroshoes.net/men-shoes/shoe-type/slippers.html" target="_blank">mens
+                slippers</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mens sneakers" href="https://www.metroshoes.net/men-shoes/shoe-type/sneakers.html" target="_blank">mens
+                sneakers</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="lifestyle shoes for men"
+                href="https://www.metroshoes.net/men-shoes/shoe-type/lifestyle.html" target="_blank">lifestyle shoes for men</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="mens boots" href="https://www.metroshoes.net/men-shoes/shoe-type/boots.html" target="_blank">mens
+                boots</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mens kolhapuri shoes"
+                href="https://www.metroshoes.net/men-shoes/shoe-type/kolhapuris.html" target="_blank">mens
+                kolhapuri shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mojaris for men" href="https://www.metroshoes.net/men-shoes/shoe-type/mojaris.html" target="_blank"> mojaris
+                for
+                men</a><span class="ftr-dvdr">/</span></li>
+          </ul>
+          <p class="footer-title1"><span>Popular Womens Shoes Searches</span></p>
+          <ul>
+            <li><a title="womens formal shoes"
+                href="https://www.metroshoes.net/women-shoes/occasion/formals.html" target="_blank">womens
+                formal shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="womens casual shoes" href="https://www.metroshoes.net/men-shoes/occasion/casuals.html" target="_blank">womens
+                casual shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="party shoes for women" href="https://www.metroshoes.net/women-shoes/occasion/party.html" target="_blank">party
+                shoes for women</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="wedding shoes" href="https://www.metroshoes.net/women-shoes/occasion/wedding.html" target="_blank">wedding
+                shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="womens ethnic shoes" href="https://www.metroshoes.net/women-shoes/occasion/ethnic.html" target="_blank">womens
+                ethnic shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="sports shoes for women"
+                href="https://www.metroshoes.net/women-shoes/occasion/sports.html" target="_blank">sports shoes for women</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="womens sandals" href="https://www.metroshoes.net/women-shoes/shoe-type/sandals.html" target="_blank">womens
+                sandals</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="ballerina for women"
+                href="https://www.metroshoes.net/women-shoes/shoe-type/ballerinas.html" target="_blank">ballerina for women</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="pump shoes" href="https://www.metroshoes.net/women-shoes/shoe-type/pumps.html" target="_blank">pump
+                shoes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="womens loafers" href="https://www.metroshoes.net/women-shoes/shoe-type/loafers.html" target="_blank">womens
+                loafers</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="peep toes" href="https://www.metroshoes.net/women-shoes/shoe-type/peep-toes.html" target="_blank">peep
+                toes</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="sneakers for women"
+                href="https://www.metroshoes.net/women-shoes/shoe-type/sneakers.html" target="_blank">sneakers for women</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="womens boots" href="https://www.metroshoes.net/women-shoes/shoe-type/boots.html" target="_blank">womens
+                boots</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="gladiator shoes"
+                href="https://www.metroshoes.net/women-shoes/shoe-type/gladiators.html" target="_blank">gladiator shoes</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="womens slippers" href="https://www.metroshoes.net/women-shoes/shoe-type/slippers.html" target="_blank">womens
+                slippers</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="mojaris for women" href="https://www.metroshoes.net/women-shoes/shoe-type/mojaris.html" target="_blank">
+                mojaris
+                for women</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="womens lifestyle shoes"
+                href="https://www.metroshoes.net/women-shoes/shoe-type/lifestyle.html" target="_blank">womens lifestyle shoes</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="block heels" href="https://www.metroshoes.net/women-shoes/heel-type/block.html" target="_blank">block
+                heels</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="stilettos"
+                href="https://www.metroshoes.net/women-shoes/heel-type/stilettos.html" target="_blank">stilettos</a><span
+                class="ftr-dvdr">/</span></li>
+          </ul>
+          <p class="footer-title1"><span>Popular Kids Shoes Searches</span></p>
+          <ul>
+            <li><a title="formal shoes for boys"
+                href="https://www.metroshoes.net/kids-shoes/occasion-1/formals.html" target="_blank">formal shoes for boys</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="casual shoes for boys"
+                href="https://www.metroshoes.net/kids-shoes/occasion-1/casuals.html" target="_blank">casual shoes for boys</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="boys sandals" href="https://www.metroshoes.net/kids-shoes/shoe-type/sandals.html" target="_blank">boys
+                sandals</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="boys sneakers" href="https://www.metroshoes.net/kids-shoes/shoe-type/sneakers.html" target="_blank">boys
+                sneakers</a><span class="ftr-dvdr">/</span></li>
+            <li><a title="formal shoes for girls"
+                href="https://www.metroshoes.net/kids-shoes/occasion/formals.html" target="_blank">formal shoes for girls</a><span
+                class="ftr-dvdr">/</span></li>
+            <li><a title="casual shoes for girls"
+                href="https://www.metroshoes.net/kids-shoes/occasion/casuals.html" target="_blank">casual shoes for girls</a><span
+                class="ftr-dvdr">/</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-content">
+        <h2><strong>Metro Shoes – Footwear for Everyone</strong></h2>
+        <p>For all those shoe lovers out there, Metro Shoes offer the one-stop destination to pick the right pair of
+          footwear. To satiate the love for shoes, we offer myriads of options from leading footwear brands, all under
+          one
+          roof. Gone are the days when you had to go from store to store to find the right style and size for yourself.
+          At
+          <strong><a href="https://www.metroshoes.net">Metro Shoes</a></strong>, you can find a large collection of
+          dashing footwear in all sizes and styles, all within a few clicks. Easy right? Not only we are here to save
+          your
+          time, we are offering you the most stunning footwear options from almost all the top notch brands like
+          <strong><a href="https://www.metroshoes.net/men-shoes/brands/davinchi.html" target="_blank">DAVINCHI</a></strong>, <a
+            href="https://www.metroshoes.net/women-shoes/brands/princess.html" target="_blank">PRINCESS</a>, and <a
+            href="https://www.metroshoes.net/men-shoes/brands/lee-cooper.html" target="_blank">LEE COOPER</a>. At Metro, we offer men,
+          women, and kid’s shoes ideal for any and every occasion. Right from sport shoes to sandals to flip-flops,
+          there
+          is nothing that you cannot find at Metro to complement your attire. At Metro, delivering quality footwear that
+          flaunts style is our motto. Dedicated to fulfilling your shopping desires without any trouble, we make sure
+          that
+          you experience smooth online ordering experience. Our exotic collection of fashionably savvy footwear is
+          available at amazing prices that will truly surprise you. So be a shoe-holic with Metro.</p>
+      </div>
+      <div class="footer_bottom">
+        <p>CopyRight
+          <script>document.write(new Date().getFullYear())</script>2020 Metro Shoes. All Rights Reserved. </p>
+        <div class="payment-modes">&nbsp;</div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
